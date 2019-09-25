@@ -1,0 +1,42 @@
+
+
+#B1{
+    background-color: #F4B081;
+    color: white;
+  
+}
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13%;
+    width: 97%;
+    margin: 13% auto;
+}
+.btn{
+    width: 30%;
+    height: 150px;
+    font-size: 30px;
+    border: 2px solid black;
+    padding-top: 3%;
+      /* font-weight: bold; */
+}
+#B2{
+    background-color: #4472C4;
+    color: white;
+    padding-top: 2%;
+}
+
+@media (max-width: 575.98px) { 
+    #buttons{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .btn{
+        width: 75%;
+        margin-bottom: 10%;
+    }
+
+ }

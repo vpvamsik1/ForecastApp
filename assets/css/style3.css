@@ -1,0 +1,173 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F4F5F8;
+}
+#chart1{
+    background-color: #ffffff;
+}
+.container{
+    /* background-color: #ffffff; */
+}
+.cAlign{
+    /* text-align: center; */
+    background-color: #ffffff;
+    padding: 2% 2%;
+}
+#R1{
+    margin-top: 8%;
+}
+#R2{
+    margin-bottom: 8%;
+}
+#R1, #R2{
+    display: flex;
+    justify-content: space-around;
+}
+#IText{
+    text-align: left;
+}
+.aLeft {
+    text-align: left;
+}
+#P1{
+    font-size: 16px;
+    margin-top: 4%;
+}
+.half{
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 2%;
+}
+.bold{
+    font-weight: bold;
+}
+
+#PR1{
+    background-color: #EE8634;
+}
+#PR2{
+    background-color: #569C38;
+}
+#PR3{
+    background-color: #71B337;
+}
+#PR4{
+    background-color: #4BA2B2;
+}
+#R2{
+    margin-top: 2%;
+}
+#mTop{
+    margin-top: 5%;
+}
+.dNone{
+    display: none;
+}
+#B1{
+    background-color: #EE8634;
+    color: white;
+}
+#B2{
+    background-color: #569C38;
+    color: white;
+}
+#eMon, #eMon2, #eMon3{
+    font-size: 35px;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+#thisY, #thisY2, #thisY3{
+    margin-top: 0px;
+}
+#IText2, #dr1, #IText3, #dr2, #IText4, #dr3{
+    display: inline-block;
+    width: 49%;
+}
+#dr1, #dr2, #dr3{
+    text-align: right;
+}
+#ty, #ty2, #ty3{
+    padding-right: 0px;
+}
+#toggle{
+    padding-left: 0px;
+}
+#id{
+    /* padding-right:  */
+}
+#B3{
+    background-color: #59BEBE;
+    color: white;
+    margin-top: 13%;
+    width: 50%;
+    height: 70px;
+    font-size: 20px;
+}
+#buttonrow, #buttonRow2, #buttonRow3{
+    text-align: center;
+}
+#bar1{
+    padding: 4%;
+    background-color: #EE8634;
+}
+#bar2{
+    padding: 4%;
+    background-color: #569C38;
+}
+/* #bar3{
+    padding: 4%;
+    background-color: #71B337;
+}
+#bar4{
+    padding: 4%;
+    background-color: #4BA2B2;
+} */
+#expenses{
+    margin-top: 5%;
+}
+#myChart3{
+    color: black;
+}
+#B4{
+    background-color: green;
+    color: white;
+    margin-top: 13%;
+    width: 50%;
+    height: 70px;
+    font-size: 20px;
+}
+#B5{
+    background-color: #4BA2B2;
+    color: white;
+    margin-top: 13%;
+    width: 50%;
+    height: 70px;
+    font-size: 20px;
+}
+
+.cAlign{
+    height: 390px;
+}
+@media (max-width: 575.98px) { 
+
+    #R2{
+        margin-top: 0px;
+    }
+
+    .cAlign{
+        margin-bottom: 8%;
+        padding: 4% 7%;
+    }
+
+    body{
+        padding: 1% 4%;
+    }
+
+    .hSmall{
+        height: 300px;
+    }
+    .hSmall2{
+        height: 330px;
+    }
+ }

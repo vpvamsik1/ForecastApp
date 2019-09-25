@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css">
+    <title>Forecast Effectiveness</title>
+  </head>
+  <body>
+      <div class="container">
+          <div class="row" id="R1">
+            <div class="col-sm-5 cAlign">
+              <h4 id="IText" class="aLeft">Invoices</h4>
+              <div id="P1"><p class="half bold">$80, 121.63 UNPAID</p><p class="half">LAST 365 DAYS</p></div>
+              <div><p class="half bold">$80, 121.63</p><p class="half">$0.00</p></div>
+              <div><p class="half">OVERDUE</p><p class="half">NOT DUE YET</p></div>
+              <button type="button" id="B1" class="btn ">Show Graph</button>
+              <div class="progress" id="bar1">
+                  <div class="progress-bar" id="PR1" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div id="mTop"><p class="half">$12,501.00 PAID</p><p class="half">LAST 30 DAYS</p></div>
+              <div><p class="half">$0.00</p><p class="half bold">$12,501.00</p></div>
+              <div><p class="half">NOT DEPOSITED</p><p class="half">DEPOSTIED</p></div>
+              <button type="button" id="B2" class="btn ">Show Graph</button>
+              <div class="progress" id="bar2">
+                  <div class="progress-bar" id="PR2" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="col-sm-5 cAlign hSmall">
+                <h4 id="IText2" class="aLeft">Expenses</h4>
+                <!-- Example split danger button -->
+                  <div class="btn-group" id="dr1">
+                    <button type="button" class="btn " id="ty">This year</button>
+                    <button type="button" id="toggle"  class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+   
+                  </div>
+                <p id="eMon">$168,179</p>
+                <p id="thisY">THIS YEAR</p>
+                <div id="buttonrow">
+                  <button type="button" id="B3" class="btn ">Show Graph</button>
+                </div>
+                <canvas id="myChart2" class="chart"></canvas>
+            </div>
+          </div>
+          <div class="row" id="R2">
+              <div class="col-sm-5 cAlign hSmall2">
+                <h4 id="IText3" class="aLeft">Profit and Loss</h4>
+                <div class="btn-group" id="dr2">
+                  <button type="button" class="btn " id="ty2">Last month</button>
+                  <button type="button" id="toggle"  class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+ 
+                </div>
+                <p id="eMon2">$-6,055</p>
+                <p id="thisY2">NET INCOME FOR AUGUST</p>
+                <div id="buttonRow3">
+                  <button type="button" class="btn" id="B5">Show Graph</button>
+                </div>
+                <canvas id="myChart4" class="chart"></canvas>
+              </div>
+
+              <div class="col-sm-5 cAlign hSmall">
+                <h4 id="IText4" class="aLeft">Sales</h4>
+                <div class="btn-group" id="dr3">
+                  <button type="button" class="btn " id="ty3">Last month</button>
+                  <button type="button" id="toggle"  class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+ 
+                </div>
+                <p id="eMon3">$10,001</p>
+                <p id="thisY3">LAST MONTH</p>
+
+                <div id="buttonRow2">
+                  <button type="button" class="btn" id="B4">Show Graph</button>
+                </div>
+                <canvas id="myChart3" class="chart"></canvas>
+              </div>
+          </div>
+        </div>
+
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    
+    <script src="assets/javascript/chartApp.js"></script>
+</body>
+</html>
