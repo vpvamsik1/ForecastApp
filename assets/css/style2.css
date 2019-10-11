@@ -11,7 +11,9 @@ tbody{
     font-weight: normal !important;
     text-align: center;
 }
-
+td a{
+    /* color: black; */
+}
 tr:nth-child(even) {
     background-color: #CDD4EA;
 }

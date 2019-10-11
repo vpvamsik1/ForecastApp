@@ -1,0 +1,70 @@
+#B1{
+    border-radius: 0px;
+    border: 2px solid black;
+    border-top: none;
+    width: 25%;
+}
+#title{
+    margin-top: 6%;
+    margin-bottom: 0%;
+    background-color: orange;
+    color: white;
+    padding: 1.5% 2%;
+    font-size: 20px;
+    font-weight: 600;
+    border-top-right-radius: 4% 50%;;
+    border-top-left-radius: 4% 50%;
+    border: 2px solid black;
+    border-bottom: none;
+}
+#example-table{
+    border: 2px solid black;
+    border-top: none;
+}   
+
+.tabulator-row .tabulator-cell{
+    padding: 1% 1%;
+    padding: .75rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.tabulator-col-content{
+    background-color: #4472C4 !important;
+    color: white;
+}
+.tabulator-row.tabulator-row-even{
+    background-color: #CDD4EA;
+}
+.tabulator-arrow{
+    display: none !important;
+}
+.tabulator-col-title{
+    padding: 0px !important;
+    text-align: center;
+}
+.tabulator-sortable{
+    min-width: 40px;
+    /* width: 321px; */
+    /* height: 29px; */
+    padding: .75rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #4472C4 !important;
+}
+#myChart3{
+    display: none !important;
+}
+@media (min-width: 1200px) { 
+
+    .tabulator-tableHolder{
+        overflow: hidden !important;
+    }
+
+    
+ }
+ @media (max-width: 575.98px) { 
+     #B1{
+         width: 50%;
+     }
+ }

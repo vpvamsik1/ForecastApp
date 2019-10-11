@@ -1,0 +1,22 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F4F5F8;
+}
+#example-table{
+    display: none;
+
+}
+.container{
+    text-align: center;
+}
+#chart3, #graph{
+    background-color: #ffffff;
+}
+#graph{
+    /* width: 50%; */
+    margin: 70px auto;
+    padding: 2% 2%;
+    border: 2px solid black;
+
+}
